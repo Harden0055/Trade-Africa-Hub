@@ -1,0 +1,49 @@
+.container-strong-sell-Tat_6ZmA .speedometerText-Tat_6ZmA,
+.container-strong-sell-Tat_6ZmA .strong-sell-Tat_6ZmA,
+html.theme-dark .container-strong-sell-Tat_6ZmA .speedometerText-Tat_6ZmA,
+html.theme-dark .container-strong-sell-Tat_6ZmA .strong-sell-Tat_6ZmA {
+    color: #f23645
+}
+
+.container-sell-Tat_6ZmA .sell-Tat_6ZmA,
+.container-sell-Tat_6ZmA .speedometerText-Tat_6ZmA,
+html.theme-dark .container-sell-Tat_6ZmA .sell-Tat_6ZmA,
+html.theme-dark .container-sell-Tat_6ZmA .speedometerText-Tat_6ZmA {
+    color: #f7525f
+}
+
+.container-neutral-Tat_6ZmA .neutral-Tat_6ZmA,
+.container-neutral-Tat_6ZmA .speedometerText-Tat_6ZmA {
+    color: #131722
+}
+
+html.theme-dark .container-neutral-Tat_6ZmA .neutral-Tat_6ZmA,
+html.theme-dark .container-neutral-Tat_6ZmA .speedometerText-Tat_6ZmA {
+    color: #d1d4dc
+}
+
+.container-buy-Tat_6ZmA .buy-Tat_6ZmA,
+.container-buy-Tat_6ZmA .speedometerText-Tat_6ZmA,
+html.theme-dark .container-buy-Tat_6ZmA .buy-Tat_6ZmA,
+html.theme-dark .container-buy-Tat_6ZmA .speedometerText-Tat_6ZmA {
+    color: #3179f5
+}
+
+.container-strong-buy-Tat_6ZmA .speedometerText-Tat_6ZmA,
+.container-strong-buy-Tat_6ZmA .strong-buy-Tat_6ZmA,
+html.theme-dark .container-strong-buy-Tat_6ZmA .speedometerText-Tat_6ZmA,
+html.theme-dark .container-strong-buy-Tat_6ZmA .strong-buy-Tat_6ZmA {
+    color: #2962ff
+}
+
+.speedometerTextDefault-Tat_6ZmA {
+    color: #131722
+}
+
+html.theme-dark .speedometerTextDefault-Tat_6ZmA {
+    color: #d1d4dc
+}
+
+.scale-Tat_6ZmA {
+    background: conic-gradient(from -90deg at 50% 50%, #1e53e5 -180deg, #f23645 0deg, #1e53e5 180deg, #f23645 1turn)
+}

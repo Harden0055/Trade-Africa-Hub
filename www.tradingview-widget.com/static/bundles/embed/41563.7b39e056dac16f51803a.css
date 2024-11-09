@@ -1,0 +1,52 @@
+.tv-embed-widget-wrapper {
+    background: #0000;
+    height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    width: 0
+}
+
+.tv-embed-widget-wrapper__header {
+    font-size: 13px;
+    line-height: 34px;
+    text-align: center
+}
+
+.tv-embed-widget-wrapper__header svg {
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: text-top;
+    width: 26px
+}
+
+.tv-embed-widget-wrapper__logo-link,
+.tv-embed-widget-wrapper__logo-link:visited {
+    color: #2962ff
+}
+
+.tv-embed-widget-wrapper__body {
+    background: var(--tv-widget-background-color, #fff);
+    border: 1px solid #e0e3eb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+html.theme-dark .tv-embed-widget-wrapper__body {
+    background: var(--tv-widget-background-color, #1e222d);
+    border-color: #434651
+}
+
+.tv-embed-widget-wrapper__body--overflow_auto {
+    overflow: auto
+}
+
+html.is-transparent .tv-embed-widget-wrapper__body {
+    background: #0000
+}
+
+html.is-transparent .tv-embed-widget-wrapper__body:not(.tv-embed-widget-wrapper__body--border-on-transparent) {
+    border-width: 0
+}

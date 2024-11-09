@@ -1,0 +1,391 @@
+.scroll-wrap-mf1FlhVw {
+    contain: content;
+    height: 100%;
+    margin: -4px;
+    padding: 4px;
+    position: relative;
+    width: 100%
+}
+
+.scroll-wrap-mf1FlhVw.enable-scroll-mf1FlhVw {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch
+}
+
+@supports (-moz-appearance:none) {
+    .scroll-wrap-mf1FlhVw.enable-scroll-mf1FlhVw {
+        scrollbar-width: none
+    }
+}
+
+.scroll-wrap-mf1FlhVw.enable-scroll-mf1FlhVw.sb-scrollbar-wrap {
+    display: none
+}
+
+.scroll-wrap-mf1FlhVw.enable-scroll-mf1FlhVw::-webkit-scrollbar {
+    display: none;
+    height: 0;
+    width: 0
+}
+
+.scroll-wrap-mf1FlhVw.enable-scroll-mf1FlhVw::-webkit-scrollbar-thumb,
+.scroll-wrap-mf1FlhVw.enable-scroll-mf1FlhVw::-webkit-scrollbar-track {
+    display: none
+}
+
+.scroll-wrap-mf1FlhVw.enable-scroll-mf1FlhVw::-webkit-scrollbar-corner {
+    display: none
+}
+
+.square-tabs-mf1FlhVw {
+    display: flex;
+    flex-flow: row nowrap
+}
+
+:not(.enable-scroll-mf1FlhVw) .square-tabs-mf1FlhVw {
+    padding: 0 var(--square-tabs-horizontal-scroll-padding, 0)
+}
+
+.enable-scroll-mf1FlhVw .square-tabs-mf1FlhVw {
+    padding-left: var(--square-tabs-horizontal-scroll-padding, 0)
+}
+
+.enable-scroll-mf1FlhVw .square-tabs-mf1FlhVw:after {
+    content: "";
+    flex-shrink: 0;
+    width: calc(var(--square-tabs-horizontal-scroll-padding, 0px) + 4px)
+}
+
+.square-tabs-mf1FlhVw .content-mf1FlhVw {
+    align-items: center;
+    display: flex
+}
+
+.size-xsmall-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child) {
+    margin-left: var(--square-tabs-horizontal-spacing-override, 4px)
+}
+
+.size-xsmall-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child):has(.end-slot-wrap-mf1FlhVw) {
+    padding-right: 7px
+}
+
+.size-xsmall-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child) .end-slot-wrap-mf1FlhVw {
+    display: inline-flex;
+    margin-inline-start: 4px
+}
+
+.size-small-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child) {
+    margin-left: var(--square-tabs-horizontal-spacing-override, 8px)
+}
+
+.size-small-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child):has(.end-slot-wrap-mf1FlhVw) {
+    padding-right: 10px
+}
+
+.size-small-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child) .end-slot-wrap-mf1FlhVw {
+    display: inline-flex;
+    margin-inline-start: 4px
+}
+
+.size-medium-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child) {
+    margin-left: var(--square-tabs-horizontal-spacing-override, 12px)
+}
+
+.size-medium-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child):has(.end-slot-wrap-mf1FlhVw) {
+    padding-right: 14px
+}
+
+.size-medium-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child) .end-slot-wrap-mf1FlhVw {
+    display: inline-flex;
+    margin-inline-start: 4px
+}
+
+.size-xlarge-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child) {
+    margin-left: var(--square-tabs-horizontal-spacing-override, 12px)
+}
+
+.size-xlarge-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child):has(.end-slot-wrap-mf1FlhVw) {
+    padding-right: 26px
+}
+
+.size-xlarge-mf1FlhVw .square-tab-button-mf1FlhVw:not(:first-child) .end-slot-wrap-mf1FlhVw {
+    display: inline-flex;
+    margin-inline-start: 4px
+}
+
+.square-tab-button-huvpscfz {
+    align-items: center;
+    background-color: initial;
+    border: none;
+    border-radius: 8px;
+    color: #131722;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-shrink: 0;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+    cursor: default
+}
+
+html.theme-dark .square-tab-button-huvpscfz {
+    background-color: initial;
+    color: #d1d4dc
+}
+
+.square-tab-button-huvpscfz.selected-huvpscfz {
+    background-color: #f0f3fa;
+    color: #131722
+}
+
+@media (any-hover:hover) {
+    .square-tab-button-huvpscfz:hover {
+        background-color: #f0f3fa;
+        color: #131722
+    }
+}
+
+html.theme-dark .square-tab-button-huvpscfz.selected-huvpscfz {
+    background-color: #2a2e39
+}
+
+@media (any-hover:hover) {
+    html.theme-dark .square-tab-button-huvpscfz:hover {
+        background-color: #2a2e39
+    }
+}
+
+html.theme-dark .square-tab-button-huvpscfz.selected-huvpscfz {
+    color: #fff
+}
+
+@media (any-hover:hover) {
+    html.theme-dark .square-tab-button-huvpscfz:hover {
+        color: #fff
+    }
+}
+
+.square-tab-button-huvpscfz:active:not(.disable-active-state-styles-huvpscfz) {
+    background-color: #e0e3eb;
+    color: #131722
+}
+
+html.theme-dark .square-tab-button-huvpscfz:active:not(.disable-active-state-styles-huvpscfz) {
+    background-color: #363a45;
+    color: #fff
+}
+
+.square-tab-button-huvpscfz:disabled,
+.square-tab-button-huvpscfz:disabled:not(.disable-active-state-styles-huvpscfz) {
+    background-color: initial;
+    color: #b2b5be
+}
+
+html.theme-dark .square-tab-button-huvpscfz:disabled,
+html.theme-dark .square-tab-button-huvpscfz:disabled:not(.disable-active-state-styles-huvpscfz) {
+    background-color: initial;
+    color: #50535e
+}
+
+.square-tab-button-huvpscfz {
+    outline: none;
+    overflow: visible;
+    position: relative
+}
+
+.square-tab-button-huvpscfz:focus {
+    outline: none
+}
+
+.square-tab-button-huvpscfz:focus-visible {
+    outline: none
+}
+
+.square-tab-button-huvpscfz:after {
+    border-style: solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    content: "";
+    display: none;
+    height: calc(100% + 8px);
+    left: -4px;
+    pointer-events: none;
+    position: absolute;
+    top: -4px;
+    width: calc(100% + 8px);
+    z-index: 1
+}
+
+.square-tab-button-huvpscfz:focus:after {
+    display: block
+}
+
+.square-tab-button-huvpscfz:focus-visible:after {
+    display: block
+}
+
+.square-tab-button-huvpscfz:focus:not(:focus-visible):after {
+    display: none
+}
+
+.square-tab-button-huvpscfz:after,
+html.theme-dark .square-tab-button-huvpscfz:after {
+    border-color: #2962ff
+}
+
+.square-tab-button-huvpscfz:after {
+    border-radius: 12px
+}
+
+.square-tab-button-huvpscfz.disable-focus-outline-huvpscfz:after {
+    display: none
+}
+
+.square-tab-button-huvpscfz.size-xlarge-huvpscfz {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    --ui-lib-typography-font-size: 20px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 400;
+    --ui-lib-typography-line-height: 30px;
+    height: 56px;
+    line-height: var(--ui-lib-typography-line-height);
+    min-width: 56px;
+    padding: 0 26px
+}
+
+.square-tab-button-huvpscfz.size-xlarge-huvpscfz .tab-hidden-content-huvpscfz,
+.square-tab-button-huvpscfz.size-xlarge-huvpscfz.selected-huvpscfz {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    --ui-lib-typography-font-size: 20px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 600;
+    --ui-lib-typography-line-height: 24px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+.square-tab-button-huvpscfz.size-medium-huvpscfz {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-size: var(--ui-lib-typography-font-size);
+    font-style: normal;
+    font-weight: 400;
+    height: 40px;
+    min-width: 40px;
+    padding: 0 16px
+}
+
+.square-tab-button-huvpscfz.size-medium-huvpscfz,
+.square-tab-button-huvpscfz.size-medium-huvpscfz.selected-huvpscfz {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    --ui-lib-typography-font-size: 16px;
+    --ui-lib-typography-line-height: 24px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+.square-tab-button-huvpscfz.size-medium-huvpscfz.selected-huvpscfz {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-size: var(--ui-lib-typography-font-size);
+    font-style: normal;
+    font-weight: 600
+}
+
+.square-tab-button-huvpscfz.size-medium-huvpscfz .tab-hidden-content-huvpscfz {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-size: var(--ui-lib-typography-font-size);
+    font-style: normal;
+    font-weight: 600
+}
+
+.square-tab-button-huvpscfz.size-medium-huvpscfz .tab-hidden-content-huvpscfz,
+.square-tab-button-huvpscfz.size-small-huvpscfz {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    --ui-lib-typography-font-size: 16px;
+    --ui-lib-typography-line-height: 24px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+.square-tab-button-huvpscfz.size-small-huvpscfz {
+    border-radius: 6px;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-size: var(--ui-lib-typography-font-size);
+    font-style: normal;
+    font-weight: 400;
+    height: 34px;
+    min-width: 34px;
+    padding: 0 var(--square-tab-button-small-inline-padding-override, 12px)
+}
+
+.square-tab-button-huvpscfz.size-small-huvpscfz:after {
+    border-radius: 10px
+}
+
+.square-tab-button-huvpscfz.size-small-huvpscfz .tab-hidden-content-huvpscfz,
+.square-tab-button-huvpscfz.size-small-huvpscfz.selected-huvpscfz {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    --ui-lib-typography-font-size: 16px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 600;
+    --ui-lib-typography-line-height: 24px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+.square-tab-button-huvpscfz.size-xsmall-huvpscfz {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    --ui-lib-typography-font-size: 14px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 400;
+    --ui-lib-typography-line-height: 18px;
+    border-radius: 6px;
+    height: 28px;
+    line-height: var(--ui-lib-typography-line-height);
+    min-width: 28px;
+    padding: 0 8px
+}
+
+.square-tab-button-huvpscfz.size-xsmall-huvpscfz:after {
+    border-radius: 10px
+}
+
+.square-tab-button-huvpscfz.size-xsmall-huvpscfz .tab-hidden-content-huvpscfz,
+.square-tab-button-huvpscfz.size-xsmall-huvpscfz.selected-huvpscfz {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    --ui-lib-typography-font-size: 14px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 600;
+    --ui-lib-typography-line-height: 18px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+.square-tab-button-huvpscfz.fake-huvpscfz {
+    left: -999999px;
+    pointer-events: none;
+    position: absolute;
+    width: max-content;
+    z-index: -1
+}
+
+.content-huvpscfz {
+    flex-shrink: 0
+}
+
+.content-huvpscfz,
+.tab-content-huvpscfz {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.tab-hidden-content-huvpscfz {
+    display: flex;
+    height: 0;
+    visibility: hidden
+}

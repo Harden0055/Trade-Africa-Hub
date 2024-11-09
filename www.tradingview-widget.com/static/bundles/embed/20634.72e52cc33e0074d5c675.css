@@ -1,0 +1,315 @@
+.speedometerWrapper-uRyD4N_Y {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: end;
+    order: 2
+}
+
+.speedometerWrapper-uRyD4N_Y.laptop-uRyD4N_Y:first-child {
+    padding-right: 10px
+}
+
+.speedometerWrapper-uRyD4N_Y.laptop-uRyD4N_Y:last-child {
+    padding-left: 10px
+}
+
+.countersWrapper-uRyD4N_Y {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px
+}
+
+.counterWrapper-uRyD4N_Y {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px
+}
+
+.counterNumber-uRyD4N_Y {
+    margin-bottom: 5px
+}
+
+.counterNumber-uRyD4N_Y.small-uRyD4N_Y {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    --ui-lib-typography-font-size: 18px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 400;
+    --ui-lib-typography-line-height: 28px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+.counterNumber-uRyD4N_Y.large-uRyD4N_Y,
+.counterNumber-uRyD4N_Y.medium-uRyD4N_Y {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    --ui-lib-typography-font-size: 20px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 400;
+    --ui-lib-typography-line-height: 30px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+.counterTitle-uRyD4N_Y {
+    color: #131722;
+    text-align: center
+}
+
+html.theme-dark .counterTitle-uRyD4N_Y {
+    color: #d1d4dc
+}
+
+.counterTitle-uRyD4N_Y.small-uRyD4N_Y {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    --ui-lib-typography-font-size: 14px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 600;
+    --ui-lib-typography-line-height: 18px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+.counterTitle-uRyD4N_Y.large-uRyD4N_Y,
+.counterTitle-uRyD4N_Y.medium-uRyD4N_Y {
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    --ui-lib-typography-font-size: 16px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 600;
+    --ui-lib-typography-line-height: 24px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+.buyColor-uRyD4N_Y {
+    color: #2962ff
+}
+
+.sellColor-uRyD4N_Y {
+    color: #f7525f
+}
+
+.neutralColor-uRyD4N_Y {
+    color: #6a6d78
+}
+
+.gaugeTitle-uRyD4N_Y {
+    font-feature-settings: "tnum" on, "lnum" on;
+    --ui-lib-typography-line-height: 24px;
+    --ui-lib-typography-font-size: 16px;
+    color: #131722;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-size: var(--ui-lib-typography-font-size);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--ui-lib-typography-line-height);
+    margin: 24px 16px;
+    text-align: center
+}
+
+html.theme-dark .gaugeTitle-uRyD4N_Y {
+    color: #d1d4dc
+}
+
+.widget-technical-analysis__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    overflow: auto;
+    width: 100%
+}
+
+.widget-technical-analysis a {
+    color: #2962ff;
+    fill: #2962ff
+}
+
+html.theme-dark .widget-technical-analysis a {
+    fill: #5b9cf6;
+    color: #5b9cf6
+}
+
+.widget-technical-analysis a:visited {
+    color: #2962ff;
+    fill: #2962ff
+}
+
+html.theme-dark .widget-technical-analysis a:visited {
+    fill: #5b9cf6;
+    color: #5b9cf6
+}
+
+@media (any-hover:hover) {
+    .widget-technical-analysis a:hover {
+        color: #1e53e5;
+        fill: #1e53e5
+    }
+    html.theme-dark .widget-technical-analysis a:hover {
+        fill: #3179f5;
+        color: #3179f5
+    }
+}
+
+.widget-technical-analysis a:active {
+    color: #1848cc;
+    fill: #1848cc
+}
+
+html.theme-dark .widget-technical-analysis a:active {
+    fill: #2962ff;
+    color: #2962ff
+}
+
+.widget-technical-analysis a:focus {
+    outline: auto;
+    outline-offset: 2px
+}
+
+.widget-technical-analysis a:focus-visible {
+    outline: auto;
+    outline-offset: 2px
+}
+
+.widget-technical-analysis a:focus:not(:focus-visible) {
+    outline: none
+}
+
+.tabsWrap-F6VayVuW {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 0 16px;
+    width: 100%
+}
+
+.tabsWrap-F6VayVuW.horizontal-scroll-F6VayVuW {
+    padding: 0;
+    --square-tabs-horizontal-scroll-padding: 16px
+}
+
+.tabsWrap-F6VayVuW.tabsSquish-F6VayVuW {
+    padding: 0 15px;
+    --square-tabs-horizontal-spacing-override: 7px;
+    --square-tab-button-small-inline-padding-override: 11px
+}
+
+.background-F6VayVuW {
+    height: 100%;
+    width: 100%
+}
+
+.speedometersContainer-F6VayVuW {
+    align-items: flex-end;
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.alignStart-F6VayVuW {
+    align-items: flex-start
+}
+
+.topMargin-F6VayVuW {
+    margin-top: 24px
+}
+
+.speedometersContainerNoData-F6VayVuW {
+    height: calc(100% - 11px)
+}
+
+.speedometerWrapper-F6VayVuW {
+    align-items: center;
+    contain: content;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    min-width: 278px;
+    order: 2
+}
+
+.summary-F6VayVuW {
+    flex-grow: 2;
+    order: 1;
+    width: 100%
+}
+
+.page-wide .summary-F6VayVuW {
+    order: 2;
+    width: auto
+}
+
+.page-wide .speedometerWrapper-F6VayVuW {
+    min-width: auto
+}
+
+.speedometerTitle-F6VayVuW {
+    color: #131722;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    margin: 0 16px 24px;
+    text-align: center;
+    --ui-lib-typography-font-size: 20px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 600;
+    --ui-lib-typography-line-height: 24px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+html.theme-dark .speedometerTitle-F6VayVuW {
+    color: #d1d4dc
+}
+
+@media (max-width:980px) {
+    .speedometersContainer-F6VayVuW {
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+.container-h_9QHVVc {
+    cursor: default;
+    display: grid;
+    gap: 24px;
+    grid-auto-flow: column;
+    grid-template-areas: "summary" "oscillators" "movingAverages"
+}
+
+.container-h_9QHVVc.tablet-landscape-h_9QHVVc,
+.container-h_9QHVVc.tablet-vertical-h_9QHVVc {
+    grid-template-areas: "summary summary" "oscillators movingAverages"
+}
+
+.container-h_9QHVVc.laptop-h_9QHVVc {
+    grid-template-areas: "oscillators summary movingAverages"
+}
+
+.container-h_9QHVVc.short-h_9QHVVc.tablet-landscape-h_9QHVVc {
+    grid-template-areas: "summary oscillators movingAverages"
+}
+
+.oscillators-h_9QHVVc {
+    grid-area: oscillators
+}
+
+.summary-h_9QHVVc {
+    grid-area: summary
+}
+
+.movingAverages-h_9QHVVc {
+    grid-area: movingAverages
+}
+
+.mainWrapper-WQhUXl5J {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}

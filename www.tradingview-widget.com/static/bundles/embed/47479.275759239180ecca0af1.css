@@ -1,0 +1,226 @@
+th {
+    font-weight: 400;
+    letter-spacing: .2px
+}
+
+.container-hvDpy38G,
+.table-hvDpy38G,
+.tableWrapper-hvDpy38G {
+    width: 100%
+}
+
+.title-hvDpy38G {
+    margin-bottom: 10px
+}
+
+.link-hvDpy38G {
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    text-align: left;
+    --ui-lib-typography-font-size: 16px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 600;
+    --ui-lib-typography-line-height: 24px;
+    color: #131722;
+    line-height: var(--ui-lib-typography-line-height);
+    fill: #131722
+}
+
+html.theme-dark .link-hvDpy38G {
+    fill: #d1d4dc;
+    color: #d1d4dc
+}
+
+.link-hvDpy38G:visited {
+    color: #131722;
+    fill: #131722
+}
+
+html.theme-dark .link-hvDpy38G:visited {
+    fill: #d1d4dc;
+    color: #d1d4dc
+}
+
+@media (any-hover:hover) {
+    .link-hvDpy38G:hover {
+        color: #1e53e5;
+        fill: #1e53e5
+    }
+    html.theme-dark .link-hvDpy38G:hover {
+        fill: #3179f5;
+        color: #3179f5
+    }
+}
+
+.link-hvDpy38G:active {
+    color: #1848cc;
+    fill: #1848cc
+}
+
+html.theme-dark .link-hvDpy38G:active {
+    fill: #2962ff;
+    color: #2962ff
+}
+
+.link-hvDpy38G:focus {
+    outline: auto;
+    outline-offset: 2px
+}
+
+.link-hvDpy38G:focus-visible {
+    outline: auto;
+    outline-offset: 2px
+}
+
+.link-hvDpy38G:focus:not(:focus-visible) {
+    outline: none
+}
+
+.icon-hvDpy38G {
+    align-items: center;
+    display: flex;
+    padding-top: 1px
+}
+
+.header-hvDpy38G {
+    border-top: 1px solid #f0f3fa;
+    color: #6a6d78;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    height: 40px;
+    --ui-lib-typography-font-size: 14px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 400;
+    --ui-lib-typography-line-height: 18px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+html.theme-dark .header-hvDpy38G {
+    border-top: 1px solid #2a2e39;
+    color: #868993
+}
+
+.row-hvDpy38G {
+    border-top: 1px solid #f0f3fa;
+    color: #131722;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    height: 40px;
+    --ui-lib-typography-font-size: 14px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-weight: 400;
+    --ui-lib-typography-line-height: 18px;
+    line-height: var(--ui-lib-typography-line-height)
+}
+
+html.theme-dark .row-hvDpy38G {
+    border-top: 1px solid #2a2e39;
+    color: #d1d4dc
+}
+
+.row-hvDpy38G a {
+    color: #131722;
+    fill: #131722
+}
+
+html.theme-dark .row-hvDpy38G a {
+    fill: #d1d4dc;
+    color: #d1d4dc
+}
+
+.row-hvDpy38G a:visited {
+    color: #131722;
+    fill: #131722
+}
+
+html.theme-dark .row-hvDpy38G a:visited {
+    fill: #d1d4dc;
+    color: #d1d4dc
+}
+
+@media (any-hover:hover) {
+    .row-hvDpy38G a:hover {
+        color: #1e53e5;
+        fill: #1e53e5
+    }
+    html.theme-dark .row-hvDpy38G a:hover {
+        fill: #3179f5;
+        color: #3179f5
+    }
+}
+
+.row-hvDpy38G a:active {
+    color: #1848cc;
+    fill: #1848cc
+}
+
+html.theme-dark .row-hvDpy38G a:active {
+    fill: #2962ff;
+    color: #2962ff
+}
+
+.row-hvDpy38G a:focus {
+    outline: auto;
+    outline-offset: 2px
+}
+
+.row-hvDpy38G a:focus-visible {
+    outline: auto;
+    outline-offset: 2px
+}
+
+.row-hvDpy38G a:focus:not(:focus-visible) {
+    outline: none
+}
+
+.cell-hvDpy38G {
+    padding: 10px 0 10px 20px;
+    text-align: right
+}
+
+.cell-hvDpy38G:first-child {
+    padding-left: 0;
+    text-align: left
+}
+
+.cell-hvDpy38G:not(:first-child) {
+    white-space: nowrap
+}
+
+.cell-hvDpy38G:last-child.largePadding-hvDpy38G {
+    padding-left: 20px
+}
+
+.cell-hvDpy38G:last-child.largePadding-hvDpy38G.phoneLandscape-hvDpy38G {
+    padding-left: 80px
+}
+
+.cell-hvDpy38G:last-child.largePadding-hvDpy38G.tabletVertical-hvDpy38G {
+    padding-left: 20px
+}
+
+.cell-hvDpy38G:last-child.largePadding-hvDpy38G.tabletLandscape-hvDpy38G {
+    padding-left: 80px
+}
+
+.buyColor-hvDpy38G,
+html.theme-dark .buyColor-hvDpy38G {
+    color: #2962ff
+}
+
+.sellColor-hvDpy38G,
+html.theme-dark .sellColor-hvDpy38G {
+    color: #f23645
+}
+
+.neutralColor-hvDpy38G {
+    color: #6a6d78
+}
+
+html.theme-dark .neutralColor-hvDpy38G {
+    color: #868993
+}

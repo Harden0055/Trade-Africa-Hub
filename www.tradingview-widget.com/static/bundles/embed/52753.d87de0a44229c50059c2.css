@@ -1,0 +1,14 @@
+.card-exterior-Us1ZHpvJ {
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 8px
+}
+
+@media (any-hover:hover) {
+    .card-exterior-Us1ZHpvJ:hover {
+        background-color: #f0f3fa
+    }
+    html.theme-dark .card-exterior-Us1ZHpvJ:hover {
+        background-color: #2a2e39
+    }
+}

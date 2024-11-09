@@ -1,0 +1,26 @@
+.tv-error-card {
+    align-items: center;
+    color: #131722;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%
+}
+
+html.theme-dark .tv-error-card {
+    color: #d1d4dc
+}
+
+.tv-error-card__icon {
+    color: #b2b5be;
+    display: flex;
+    flex: 0 0 auto;
+    margin-bottom: 20px
+}
+
+.tv-error-card__message {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px
+}

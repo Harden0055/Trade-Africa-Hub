@@ -1,0 +1,54 @@
+.label-e9c6dycV {
+    background: #fff
+}
+
+html.theme-dark .label-e9c6dycV {
+    background: #363a45
+}
+
+.label-e9c6dycV .logoWrap-e9c6dycV svg {
+    height: 10px;
+    margin: 7px 0;
+    width: 17px
+}
+
+.label-e9c6dycV .logoWrap-e9c6dycV svg path {
+    transition: fill .3s cubic-bezier(.4, .01, .22, 1) 0s;
+    fill: #131722
+}
+
+html.theme-dark .label-e9c6dycV .logoWrap-e9c6dycV svg path {
+    fill: #fff
+}
+
+.label-e9c6dycV .svgTextWrap-e9c6dycV svg {
+    margin: 6px 0
+}
+
+.label-e9c6dycV .svgTextWrap-e9c6dycV svg path {
+    fill: #131722
+}
+
+html.theme-dark .label-e9c6dycV .svgTextWrap-e9c6dycV svg path {
+    fill: #fff
+}
+
+.label-e9c6dycV.large-e9c6dycV {
+    background: #fff
+}
+
+html.theme-dark .label-e9c6dycV.large-e9c6dycV {
+    background: #131722
+}
+
+.label-e9c6dycV.large-e9c6dycV .logoWrap-e9c6dycV svg {
+    height: 11px;
+    margin: 11px 0 10px;
+    width: 20px
+}
+
+.label-e9c6dycV.large-e9c6dycV .svgTextWrap-e9c6dycV svg {
+    height: 14px;
+    margin: 10px 0;
+    width: 77px
+}

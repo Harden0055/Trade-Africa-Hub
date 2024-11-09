@@ -1,0 +1,12 @@
+.arrow-icon-nV6fm1zO {
+    display: inline-flex;
+    height: 18px;
+    margin-inline-end: -4px;
+    margin-inline-start: 4px;
+    transition: transform .35s ease;
+    width: 18px
+}
+
+.arrow-icon-nV6fm1zO.dropped-nV6fm1zO {
+    transform: rotate(180deg)
+}
