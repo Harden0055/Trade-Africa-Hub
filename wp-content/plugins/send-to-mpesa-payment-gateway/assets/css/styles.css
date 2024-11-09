@@ -1,0 +1,35 @@
+/** 
+*  Styles 
+*/
+
+.payment_box.payment_method_send_to_mpesa_ {
+    background-color: #fafafa;
+}
+
+#send_to_mpesa_confirmation_details {
+    background: rgb(255, 255, 255);
+    padding: 2em;
+    border: solid 2px #ddd;
+    margin: 1em auto;
+}
+
+.send-mpesa-confirmation-title {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.mpesa-confirm-input {
+    margin: 10px 0 10px 0;
+}
+
+.mpesa-confirm-input {
+    margin: 10px 0 10px 0;
+    border-radius: 3px;
+}
+
+#customer,
+#mobile,
+#transaction {
+    border: solid 1px #ddd;
+}
